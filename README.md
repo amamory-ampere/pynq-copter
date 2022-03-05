@@ -19,6 +19,11 @@ To get started flying now, You must have the exact parts in the same physical co
 ## Getting to Work
 If you want to start working and adding to this project, you first need Vivado Design suite v2017.4 with the ZYNQ 7020 SoC part installed. You must also clone this repo into your pynq board or Linux PC for editing. Follow the steps in ["Getting Started"](https://github.com/UCSD-E4E/pynq-copter/wiki/Getting-Started), or if you are familiar with overlay development, you can call ```./make.sh``` and begin editing either the overlay or the IPs immediately.
 
+
+## Paper 
+
+ - [PynqCopter - An Open-source FPGA Overlay for UAVs](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8622102)
+
 ## Useful scripts
 1. Make all IPs and Overlays: ```./make.sh``` or ```make -C pynqcopter/hex/```
 
